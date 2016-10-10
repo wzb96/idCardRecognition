@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="463dp">
+
+
+
+
+      <SurfaceView
+          android:layout_width="match_parent"
+          android:layout_height="463dp"
+          android:id="@+id/surfaceview"/>
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="463dp"
+          android:background="@drawable/back"/>
+
+
+
+
+
+
+
+   </FrameLayout>
+
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="请将身份证放入框内拍摄"
+          android:textSize="20dp"
+          android:layout_gravity="center_horizontal|top"
+          android:id="@+id/textView" />
+
+      <Button
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:id="@+id/take"
+          android:text="确认"
+          android:textSize="50dp"
+          android:layout_gravity="center_horizontal|bottom" />
+
+
+
+
+
+
+</LinearLayout>
